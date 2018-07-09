@@ -1,0 +1,45 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "A Discord bot template",
+  "main": "index.js",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Tony (zfbTony)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "babel-polyfill": "^6.26.0",
+    "bufferutil": "^3.0.5",
+    "discord.js": "^11.2.1",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.5.4",
+    "node-opus": "^0.2.9",
+    "numeral": "^2.0.6",
+    "object.entries": "^1.0.4",
+    "opusscript": "0.0.3",
+    "request": "^2.85.0",
+    "sodium": "^2.0.3",
+    "uws": "^0.14.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfbTony/Discord-Bot-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zfbTony/Discord-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/zfbTony/Discord-Bot-Template#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "install-peers": "^1.0.2"
+  }
+}
